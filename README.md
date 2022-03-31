@@ -12,4 +12,5 @@ Revisar también si el nombre y apellidos son correctos.
 | Gorka | Gonzalez | gorka_ccbosco | gorka-gl | SI | SI |
 | Xavier | Pumarola Rof | xpumarola | xpumarolaApen | SI | SI |
 | Miguel | Martínez | MiguelM | MMartinezDA | SI | SI |
+| Jordi | Deumal | jordiapen | jordiapen | SI | SI |
 
