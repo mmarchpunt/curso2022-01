@@ -11,6 +11,8 @@ Revisar también si el nombre y apellidos son correctos.
 | Susana | Romero | susana-romero | sromero.desarrollo | SI | SI |
 | Guillermo | Gallego Desdentado | Willytal#6591 | willytal | SI | SI |
 | Gorka | Gonzalez | gorka_ccbosco | gorka-gl | SI | SI |
+| Ruben | Ortega | RubenOrtega | SI | NO |
+| Xavier | Pumarola Rof | xpumarola | xpumarolaApen | SI | SI |
 | Ruben | Seijas | ruben_aira | rubenseijas | SI | SI |
 | Salva | Benlloch | salva_pnt | punt-sistemes-salva | SI | SI |
 | Xavier | Pumarola Rof | xpumarola | xpumarolaApen | SI | SI |
