@@ -8,12 +8,14 @@ Revisar también si el nombre y apellidos son correctos.
 | -- | -- | -- | -- | -- | -- |
 | Angel | Moya | AngelMoya | angelmoya | SI | SI |
 | Jonathan | Camacho | jon | jonathan673 | SI | SI |
+| Susana | Romero | susana-romero | sromero.desarrollo | SI | SI |
 | Guillermo | Gallego Desdentado | Willytal#6591 | willytal | SI | SI |
 | Gorka | Gonzalez | gorka_ccbosco | gorka-gl | SI | SI |
-<<<<<<< HEAD
 | Xavier | Pumarola Rof | xpumarola | xpumarolaApen | SI | SI |
 | Miguel | Martínez | MiguelM | MMartinezDA | SI | SI |
-
-=======
 | Carmen | Pardo | CarmenP | Carmen-PL | SI | SI |
->>>>>>> Envio datos
+| Alberto | Martínez | Alberto Martínez | Tisho99 | SI | SI |
+| Xavier | Pumarola Rof | xpumarola | xpumarolaApen | SI | SI |
+| Miguel | Martínez | MiguelM | MMartinezDA | SI | SI |
+| Jordi | Deumal | jordiapen | jordiapen | SI | SI |
+| Miguel | Martínez | MiguelM | MMartinezDA | SI | SI |
