@@ -11,3 +11,5 @@ Revisar también si el nombre y apellidos son correctos.
 | Guillermo | Gallego Desdentado | Willytal#6591 | willytal | SI | SI |
 | Gorka | Gonzalez | gorka_ccbosco | gorka-gl | SI | SI |
 | Salva | Benlloch | salva_pnt | punt-sistemes-salva | SI | SI |
+| Xavier | Pumarola Rof | xpumarola | xpumarolaApen | SI | SI |
+| Miguel | Martínez | MiguelM | MMartinezDA | SI | SI |
