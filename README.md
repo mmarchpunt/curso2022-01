@@ -10,6 +10,7 @@ Revisar también si el nombre y apellidos son correctos.
 | Jonathan | Camacho | jon | jonathan673 | SI | SI |
 | Susana | Romero | susana-romero | sromero.desarrollo | SI | SI |
 | Guillermo | Gallego Desdentado | Willytal#6591 | willytal | SI | SI |
+| Jesús | Aparicio | jmaparicio | jmaparicio | SI | SI |
 | Gorka | Gonzalez | gorka_ccbosco | gorka-gl | SI | SI |
 | Ruben | Ortega | RubenOrtega | SI | NO |
 | Xavier | Pumarola Rof | xpumarola | xpumarolaApen | SI | SI |
