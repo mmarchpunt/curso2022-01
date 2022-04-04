@@ -17,6 +17,7 @@ Revisar también si el nombre y apellidos son correctos.
 | Salva | Benlloch | salva_pnt | punt-sistemes-salva | SI | SI |
 | Xavier | Pumarola Rof | xpumarola | xpumarolaApen | SI | SI |
 | Miguel | Martínez | MiguelM | MMartinezDA | SI | SI |
+| Olga | Cirauqui | Olga | OlgaOdoo | SI | SI |
 | Carlos | Pardo | c-pardo | c-pardo | SI | SI |
 | Carmen | Pardo | CarmenP | Carmen-PL | SI | SI |
 | Alberto | Martínez | Alberto Martínez | Tisho99 | SI | SI |
