@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<odoo>
+    <!-- Actions -->
+    <record id="helpdesk_ticket_action" model="ir.actions.act_window">
+        <field name="name">Tickets</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">helpdesk.ticket</field>
+        <field name="view_mode">tree,kanban,form,pivot</field>
+    </record>
+
+    <!-- Menus -->
+    <record id="helpdesk_ticket_main_menu" model="ir.ui.menu">
+        <field name="name">Helpdesk</field>
+        <field name="sequence">25</field>
+        <field name="groups_id" eval="[(6,0,[ref('base.group_user')])]"/>
+    </record>
+    <record id="helpdesk_ticket_dashboard_menu" model="ir.ui.menu">
+        <field name="name">Helpdesk</field>
+        <field name="sequence">10</field>
+        <field name="parent_id" ref="helpdesk_ticket_main_menu"/>
+    </record>
+    <record id="helpdesk_ticket_menu" model="ir.ui.menu">
+        <field name="name">Tickets</field>
+        <field name="sequence">10</field>
+        <field name="parent_id" ref="helpdesk_ticket_dashboard_menu"/>
+        <field name="action" ref="helpdesk_ticket_action"/>
+    </record>
+</odoo>

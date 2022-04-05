@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<odoo>
+    <record id="helpdesk_ticket_new" model="helpdesk.ticket">
+        <field name="name">New ticket</field>
+        <field name="description">Description of the new ticket</field>
+        <field name="partner_id" ref="base.main_partner"/>
+        <field name="is_assigned">True</field>
+        <field name="priority">3</field>
+        <field name="active">True</field>
+    </record>
+</odoo>

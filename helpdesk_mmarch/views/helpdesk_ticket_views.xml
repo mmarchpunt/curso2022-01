@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<odoo>
+    <record id="helpdesk_ticket_view_search" model="ir.ui.view">
+        <field name="name">helpdesk.ticket.view.search</field>
+        <field name="model">helpdesk.ticket</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="name"/>
+                <field name="priority"/>
+                <field name="partner_id"/>
+                <filter string="Unassigned" name="unassigned" domain="[('is_assigned','=',False)]"/>
+                <group expand="0" string="Group By">
+                    <filter string="Partner" name="group_partner" domain="[]" context="{'group_by':'partner_id'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+    <record id="ticket_view_form" model="ir.ui.view">
+        <field name="name">helpdesk.ticket.view.form</field>
+        <field name="model">helpdesk.ticket</field>
+        <field name="arch" type="xml">
+            <form string="Helpdesk Ticket">
+                <header/>
+                <sheet>
+                    <widget
+                        name="web_ribbon"
+                        title="Archived"
+                        bg_color="bg-danger"
+                        attrs="{'invisible': [('active', '=', True)]}"
+                   />
+                    <div class="oe_button_box" name="button_box"/>
+                    <div class="oe_title">
+                        <h1 class="o_row">
+                            <field name="name"/>
+                        </h1>
+                    </div>
+                    <group name="main">
+                        <group>
+                            <field name="active" invisible="1"/>
+                            <field name="priority" widget="priority"/>
+                            <field name="description"/>
+                            <field
+                                name="company_id"
+                                options="{'no_create': True}"
+                                groups="base.group_multi_company"
+                           />
+                        </group>
+                        <group>
+                            <field name="partner_id" options="{'no_create': True}"/>
+                            <field name="partner_name"/>
+                            <field name="partner_email"/>
+                            <field name="create_date" readonly="1" widget="date" string="Creation date"/>
+                            <field name="assigned_date"/>
+                            <field name="closed_date"/>
+                        </group>
+                    </group>
+                    <group>
+                        <notebook>
+                            <page string="Actions" name="actions">
+                                <group>
+                                    <field name="actions_to_be_made" nolabel="1" widget="html"/>
+                                </group>
+                            </page>
+                        </notebook>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <record id="ticket_view_tree" model="ir.ui.view">
+        <field name="name">helpdesk.ticket.view.tree</field>
+        <field name="model">helpdesk.ticket</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="partner_name"/>
+                <field name="priority" widget="priority"/>
+                <field name="create_date" widget="date" string="Creation date"/>
+                <field name="assigned_date"/>
+                <field name="closed_date"/>
+            </tree>
+        </field>
+    </record>
+</odoo>
